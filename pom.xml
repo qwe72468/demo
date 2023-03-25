@@ -10,7 +10,8 @@
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>demo7</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging> <!-- maven父子集项目，parent_pom 需要这个，打jar包 在子项目目录中执行mvn clean package -DskipTests -->
+	<version>1.0.0-SNAPSHOT</version>
 	<name>demo7</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
